@@ -1,3 +1,60 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Meu Projeto</title>
+    <meta name="description" content="Descrição do meu projeto">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+    
+    <!-- Pré-conexão para fontes externas (opcional) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<body>
+    <header class="cabecalho">
+        <h1>Meu Projeto</h1>
+        <nav class="menu">
+            <ul>
+                <li><a href="#">Início</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main class="conteudo-principal">
+        <section class="secao">
+            <h2>Seção Principal</h2>
+            <p>Conteúdo da seção principal do site.</p>
+        </section>
+        
+        <article class="artigo">
+            <h3>Artigo</h3>
+            <p>Conteúdo do artigo.</p>
+        </article>
+    </main>
+    
+    <aside class="barra-lateral">
+        <h3>Barra Lateral</h3>
+        <p>Conteúdo adicional ou links relacionados.</p>
+    </aside>
+    
+    <footer class="rodape">
+        <p>&copy; <span id="ano-atual">2023</span> Meu Projeto. Todos os direitos reservados.</p>
+    </footer>
+    
+    <!-- JavaScript -->
+    <script src="js/scripts.js"></script>
+    <script>
+        // Atualiza o ano no footer automaticamente
+        document.getElementById('ano-atual').textContent = new Date().getFullYear();
+    </script>
+</body>
 </html>
