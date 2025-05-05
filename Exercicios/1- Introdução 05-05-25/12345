@@ -1,0 +1,7 @@
+//7. O código-fonte a seguir tem como resultado a saída:
+// console.log("1", "2", "3", "4")
+// a. “1234”
+// b. “1 2 3 4”
+// c. Erro de sintaxe.
+
+console.log("1", "2", "3", "4")
