@@ -1,0 +1,1 @@
+console.log("Nome: Gabriel\nIdade: 26 anos")
