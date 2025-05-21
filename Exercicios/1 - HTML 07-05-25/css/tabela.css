@@ -1,14 +1,24 @@
-table{
+table, th, td{
+    text-align: center;
     background-color: rgb(0, 0, 0);
-    color: rgb(236, 38, 38);
+    color: rgb(255, 255, 255);
     font-size: small;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-style: oblique;
-    border-color: yellow;
+    border-width: 2px;
+    border-color: white;
     border-style: dashed;
-    border-top-right-radius: 50%;
-    border-top-left-radius: 50%;
-    border-bottom-left-radius: 50%;
-    border-bottom-right-radius: 50%;
-    border-spacing: 5px; 
+    border-top-right-radius: 5%;
+    border-top-left-radius: 5%;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+    border-spacing: 7px;
+}
+
+body{
+    background-color: black;
+}
+
+h4{
+    color: white;
 }
