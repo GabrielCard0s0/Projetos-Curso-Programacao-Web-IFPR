@@ -21,4 +21,7 @@ body{
 
 h4{
     color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:x-large;
+    border: 2px;
 }
