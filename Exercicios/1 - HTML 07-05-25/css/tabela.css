@@ -25,3 +25,25 @@ h4{
     font-size:x-large;
     border: 2px;
 }
+
+h4:hover {
+    color:red;
+}
+
+h4::before {
+    content: "⌚";
+}
+
+.cinema::before {
+    content: "🍿";
+}
+
+.thu:hover, .min:hover, .pec:hover {
+    color:red;
+    background-color: white;
+}
+
+img[alt$="Minions"]:hover {
+    border: 2px dashed red;
+    width: 125px;
+}
