@@ -7,12 +7,15 @@ table, th, td{
     font-style: oblique;
     border-width: 2px;
     border-color: white;
-    border-style: dashed;
+    border-style: outset;
     border-top-right-radius: 5%;
     border-top-left-radius: 5%;
     border-bottom-left-radius: 5%;
     border-bottom-right-radius: 5%;
     border-spacing: 7px;
+    padding: 5px;
+    margin: auto;
+    box-sizing: border-box;
 }
 
 body{
@@ -24,6 +27,8 @@ h4{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size:x-large;
     border: 2px;
+    margin:auto;
+    text-align: center;
 }
 
 h4:hover {
@@ -41,9 +46,4 @@ h4::before {
 .thu:hover, .min:hover, .pec:hover {
     color:red;
     background-color: white;
-}
-
-img[alt$="Minions"]:hover {
-    border: 2px dashed red;
-    width: 125px;
 }
