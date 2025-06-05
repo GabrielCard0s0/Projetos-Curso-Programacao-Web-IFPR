@@ -13,7 +13,7 @@ table, th, td{
     border-bottom-left-radius: 5%;
     border-bottom-right-radius: 5%;
     border-spacing: 7px;
-    padding: 5px;
+    padding: 0.5rem;
     margin: auto;
     box-sizing: border-box;
 }
